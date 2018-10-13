@@ -6,7 +6,7 @@
 
 package abstractFactory;
 
-public class CPU
+public interface CPU
 {
-
+	public void calulate();
 }

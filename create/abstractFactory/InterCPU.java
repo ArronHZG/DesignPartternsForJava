@@ -6,7 +6,14 @@
 
 package abstractFactory;
 
-public class InterCPU
+public class InterCPU implements CPU
 {
 
+	@Override
+	public void calulate()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
