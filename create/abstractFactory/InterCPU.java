@@ -6,8 +6,6 @@
 
 package abstractFactory;
 
-import sun.management.counter.perf.PerfInstrumentation;
-
 public class InterCPU implements CPU
 {
 	private int pins = 0;
@@ -29,8 +27,8 @@ public class InterCPU implements CPU
 	}
 
 	@Override
-	public void calulate()
+	public String calulate()
 	{
-		System.out.println("Intel CPU的针脚数：" + pins);
+		return "Intel CPU，针脚数：" + pins + "\n";
 	}
 }
