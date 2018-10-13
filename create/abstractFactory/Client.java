@@ -6,12 +6,14 @@
 
 package abstractFactory;
 
+import simplyFactory.Computer;
+
 public class Client
 {
 	public static void main(String[] args)
 	{
 		ComputerEngineer cf = new ComputerEngineer();
-		Computer interComputer = cf.makeComputer("inter", 755, "8G");
-		Computer amdComputer=cf.makeComputer("AMD", 255, "4G", "海盗船");
+		Computer interComputer = cf.makeComputer(new IntelFactory(), "8G");
+		Computer amdComputer=cf.makeComputer(new AmdFactory(), "4G", "海盗船");
 	}
 }
