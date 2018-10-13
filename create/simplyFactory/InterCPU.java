@@ -10,16 +10,6 @@ public class InterCPU implements CPU
 {
 	private int pins = 0;
 
-	public int getPins()
-	{
-		return pins;
-	}
-
-	public void setPins(int pins)
-	{
-		this.pins = pins;
-	}
-
 	public InterCPU(int pins)
 	{
 		super();
