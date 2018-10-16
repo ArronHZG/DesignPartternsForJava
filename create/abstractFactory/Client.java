@@ -14,6 +14,6 @@ public class Client
 	{
 		ComputerEngineer cf = new ComputerEngineer();
 		Computer interComputer = cf.makeComputer(new IntelFactory(), "8G");
-		Computer amdComputer=cf.makeComputer(new AmdFactory(), "4G", "海盗船");
+		Computer amdCompute = cf.makeComputer(new AmdFactory(), "4G", "海盗船");
 	}
 }
